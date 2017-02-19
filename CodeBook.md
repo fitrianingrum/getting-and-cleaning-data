@@ -4,13 +4,13 @@ This code book describes the variables, the data, and any transformations or wor
 ## Data source
 The dataset that is used in this project can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) [59.7 MB], and the brief description of it can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
-**Licence:**
+**Licence**
 
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+_Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012_
 
-This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+_This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited._
 
-Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+_Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012._
 
 ## Variables
 List of variables:
@@ -19,8 +19,8 @@ List of variables:
 * **features**, from 'features.txt' (total:561)    
 
 ## Transformation
-
 Following is the detail of transformation from data source to tidy data result:
+
 1. Merge the loaded training data and test data to create one dataset
 2. Filter only the measurements on the mean and standard deviation for each measurement
 3. Change activities in the dataset to use descriptive names listed in 'activity_labels.txt'
@@ -33,6 +33,7 @@ Following is the detail of transformation from data source to tidy data result:
    * BodyBody is replaced by Body
    * () is replaced by empty string
 5. Output the processed dataset into an independent tidy dataset.
+
 
 Please see **[run_analysis.R](https://github.com/fitrianingrum/getting-and-cleaning-data/blob/master/run_analysis.R)** for detailed transformation.
 
