@@ -17,7 +17,7 @@ Create one R script called run_analysis.R that does the following:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Deliverables
-1. tidy_data.txt, a tidy dataset as the result of cleaning the original dataset.
+1. [tidy_data.txt](https://github.com/fitrianingrum/getting-and-cleaning-data/blob/master/tidy_data.txt), a tidy dataset as the result of cleaning the original dataset.
 2. [run_analysis.R](https://github.com/fitrianingrum/getting-and-cleaning-data/blob/master/run_analysis.R), a script that performs the analysis
 3. [CodeBook.md](https://github.com/fitrianingrum/getting-and-cleaning-data/blob/master/CodeBook.md), a code book that describes variables, data, and any transformations or work performed to clean up the data.
 

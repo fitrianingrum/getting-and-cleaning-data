@@ -7,7 +7,9 @@ The dataset that is used in this project can be downloaded [here](https://d396qu
 Licence:
 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
 ## Variables
@@ -29,6 +31,7 @@ List of variables:
    * BodyBody is replaced by Body
    * () is replaced by empty string
 5. Output the processed dataset into an independent tidy dataset.
-Please see run_analysis.R for detailed transformation.
+
+Please see [run_analysis.R](https://github.com/fitrianingrum/getting-and-cleaning-data/blob/master/run_analysis.R) for detailed transformation.
 
 
