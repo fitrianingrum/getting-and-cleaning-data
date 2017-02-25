@@ -32,8 +32,8 @@ names(activity.all) <- c("activity")
 features.name <- read.table('UCI HAR Dataset/features.txt', header = FALSE)
 names(feature.all) <- features.name$V2
 
-data = cbind(subject.all, activity.all)
-data.all = cbind(data, feature.all)
+data <- cbind(subject.all, activity.all)
+data.all <- cbind(data, feature.all)
 
 # Extracts only the measurements on the mean and standard deviation for each measurement.
 features.selected <- features.name$V2[grep("mean\\(\\)|std\\(\\)", features.name$V2)]
